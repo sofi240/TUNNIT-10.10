@@ -54,8 +54,8 @@ diskriminant = (b ** 2) - (4 * a * c)
 if diskriminant < 0:
         print("lahendid puuduvad")
 else:
-    lahend1 = (-b +math.sqrt(diskriminant)) / (2 * a)
-    lahend2 = (-b -math.sqrt(diskriminant)) / (2 * a)
+    lahend1 = (-b + math.sqrt(diskriminant)) / (2 * a)
+    lahend2 = (-b - math.sqrt(diskriminant)) / (2 * a)
     print(f"lahendid on: x1= {lahend1} ja x2={lahend2}")
 # kuidas saaks kohe öelda kasutajale, et lahendid puuduvad, kuidas neid leida
 # kuidas võiks nimetada muutujaid
